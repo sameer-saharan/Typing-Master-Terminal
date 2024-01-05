@@ -1,0 +1,12 @@
+{
+    "animals": ["lion", "elephant", "zebra", "giraffe", "tiger", "monkey", "penguin", "kangaroo", "koala", "crocodile"],
+
+    "fruits": ["apple", "banana", "orange", "grape", "kiwi", "mango", "watermelon", "strawberry", "pineapple", "blueberry"],
+
+    "cars": ["Toyota", "Honda", "Ford", "Chevrolet", "Volkswagen", "BMW", "Mercedes-Benz", "Audi", "Nissan", "Tesla"],
+
+    "country": ["United States", "China", "India", "Brazil", "Russia", "Japan", "Germany", "United Kingdom", "France", "Canada"],
+
+    "city": ["New York", "Tokyo", "London", "Paris", "Beijing", "Mumbai", "Los Angeles", "Berlin", "Sydney", "Toronto"]
+  }
+
