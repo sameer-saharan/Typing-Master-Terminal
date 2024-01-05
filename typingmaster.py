@@ -4,14 +4,19 @@ import time
 import sys
 
 def load_words_from_json(category):
-    words_file = f"{category.lower()}_words.json"
+    words_data_file = "words_data.json"
 
     try:
-        with open(words_file, "r") as file:
+        with open(words_data_file, "r") as file:
             words_data = json.load(file)
-        return words_data["words"]
+
+        if category in words_data:
+            return words_data[category]
+        else:
+            print(f"Words for '{category}' not found in words_data.json.")
+            return []
     except FileNotFoundError:
-        print(f"Words file for '{category}' not found.")
+        print(f"Words data file '{words_data_file}' not found.")
         return []
 
 def get_user_input():
