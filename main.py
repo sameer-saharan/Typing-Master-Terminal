@@ -21,7 +21,7 @@ def main():
         choice = input("Enter your choice (1/2/3): ")
 
         if choice == "1":
-            category = input("Choose a category (e.g., animals, fruits, country, city, cars): ")
+            category = input("\nChoose a category: \nEasy Level- animals, fruits \nMedium Level- country, city, cars \nEnter your choice (e.g., animals,fruits,country,city,cars): ")
             words = load_words_from_json(category)
 
             if not words:
