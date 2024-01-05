@@ -21,7 +21,7 @@ def load_words_from_json(category):
 
 def get_user_input():
     try:
-        user_input = input(" << Type the word exactly as shown.\n")
+        user_input = input(" << (Type the word exactly as shown.)\n")
     except KeyboardInterrupt:
         sys.exit("\n\nExiting the game. Goodbye!")
 
